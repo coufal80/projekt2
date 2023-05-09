@@ -1,0 +1,97 @@
+body {
+    font-family: verdana;
+    font-size: 14px;
+    width: 900 px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: #444444;
+    text-shadow: 3px 3px 3px #aaaaaa;
+}
+
+footer{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    margin-right: 15px;
+
+}
+
+nav a, input[type="submit"] {
+    background: #6FA4F8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #2976f8;
+    color: #EEEEEE;
+    text-decoration: none;
+
+}
+
+.tabulka {
+    width: 100%;
+    color: #444444;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1pc solid #C0CBCD;
+}
+
+.tabulka.align-left {
+    text-align: left;
+}
+
+.tabulka th, .tabulka td {
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solild #C9CBCD;
+}
+
+.tabulka td {
+    word-break: break-word;
+
+}
+
+.tabulka.no-break td{
+    word-break: normal;
+}
+
+.tabulka th {
+    color: black;
+    background: #f5f5f5;
+}
+
+.tabulka tr:nth-child(2n) {
+    background-color: #F6F6F6;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+.cistic {
+    clear: both;
+}
